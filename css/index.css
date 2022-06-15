@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+main {
+    position: relative;
+}
+
+main img {
+    width: 100%;
+}
+
+main nav {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: aliceblue;
+}
+
+main h1 {
+    font-size: 400%;
+}
+
+main h3 {
+    margin-left: 40%;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+}
+
+main li {
+    margin-left: 1rem;
+}
