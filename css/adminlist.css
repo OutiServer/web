@@ -1,0 +1,30 @@
+main {
+    margin-bottom: 15%;
+}
+
+main #title {
+    margin-left: 40%;
+}
+
+main ul {
+    padding-top: 3%;
+    padding-left: 3%;
+    list-style:none;
+}
+
+main li img {
+    border-radius: 50%;
+    width:  180px;
+    height: 180px;
+}
+
+main li .name {
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+main li .description {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
