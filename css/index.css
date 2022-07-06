@@ -2,10 +2,7 @@
 
 main {
     position: relative;
-}
-
-main img {
-    width: 100%;
+    padding-top: 45%;
 }
 
 main nav {
@@ -20,7 +17,27 @@ main h1 {
 }
 
 main h3 {
+    font-family: 'Minecraft', sans-serif;
+}
+
+main #welcome-msg {
+    text-align: center;
+    margin-top: 3%;
+}
+
+main #welcome {
+    margin-right: 30%;
+}
+
+main #coming {
     margin-left: 40%;
+}
+
+main #background-img {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
 }
 
 main ul {
