@@ -44,7 +44,8 @@ main li {
   margin-left: 1rem;
 }
 
-main .background-img-mobile {
+main #background-img-mobile1,
+#background-img-mobile2 {
   display: none;
 }
 
@@ -57,6 +58,7 @@ main .background-img-mobile {
   }
 
   main #background-img-mobile1 {
+    display: inline;
     position: absolute;
     top: 100%;
     height: 100%;
@@ -64,15 +66,9 @@ main .background-img-mobile {
   }
 
   main #background-img-mobile2 {
+    display: inline;
     position: absolute;
     top: 200%;
-    height: 100%;
-    width: 100%;
-  }
-
-  main #background-img-mobile4 {
-    position: absolute;
-    top: 300%;
     height: 100%;
     width: 100%;
   }
