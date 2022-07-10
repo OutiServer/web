@@ -1,9 +1,15 @@
 footer {
-    background-color: black;
-    color: aliceblue;
-    padding: 1%;
+  background-color: black;
+  color: aliceblue;
+  padding: 1%;
 }
 
 footer p {
-    text-align: center
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding-top: 90%;
+  }
 }

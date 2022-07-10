@@ -1,50 +1,83 @@
 @charset "utf-8";
 
 main {
-    position: relative;
-    padding-top: 45%;
+  position: relative;
+  padding-top: 45%;
 }
 
 main nav {
-    position: absolute;
-    top: 25%;
-    left: 40%;
-    color: aliceblue;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: aliceblue;
 }
 
 main h1 {
-    font-size: 400%;
-}
-
-main h3 {
-    font-family: 'Minecraft', sans-serif;
+  font-size: 400%;
 }
 
 main #welcome-msg {
-    text-align: center;
-    margin-top: 3%;
+  text-align: center;
 }
 
 main #welcome {
-    margin-right: 30%;
+  margin-right: 30%;
 }
 
 main #coming {
-    margin-left: 40%;
+  margin-left: 40%;
 }
 
 main #background-img {
-    position: absolute;
-    top: 0%;
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
 }
 
 main ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 main li {
-    margin-left: 1rem;
+  margin-left: 1rem;
+}
+
+main .background-img-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  main #background-img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  main #background-img-mobile1 {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+  }
+
+  main #background-img-mobile2 {
+    position: absolute;
+    top: 200%;
+    height: 100%;
+    width: 100%;
+  }
+
+  main #background-img-mobile4 {
+    position: absolute;
+    top: 300%;
+    height: 100%;
+    width: 100%;
+  }
+
+  main #welcome-msg {
+    padding-right: 50%;
+  }
 }
