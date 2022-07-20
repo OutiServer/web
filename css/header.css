@@ -43,7 +43,11 @@
     text-decoration: none;
   }
 
-  #header-pc .select {
+  #header-pc .header-nav-item a:visited {
+    color: #ccc;
+  }
+
+  #header-pc .select a:visited {
     color: black;
   }
 
