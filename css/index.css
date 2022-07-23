@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-main {
+.home {
   position: relative;
   padding-top: 45%;
 }
@@ -13,7 +13,7 @@ main nav {
 }
 
 main h1 {
-  font-size: 400%;
+  font-size: 10vmin;
 }
 
 main #welcome-msg {
@@ -24,8 +24,13 @@ main #welcome {
   margin-right: 30%;
 }
 
+#outiserver{
+  word-break: keep-all;
+}
+
 main #coming {
   margin-left: 40%;
+  
 }
 
 main #background-img {
