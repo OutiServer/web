@@ -50,7 +50,7 @@ main #welcome {
 }
 
 main #coming {
-  margin-left: 40%;  
+  margin-left: 10%;
 }
 
 main #background-img {
@@ -100,5 +100,9 @@ main #background-img-mobile1,
 
   main #welcome-msg {
     padding-right: 50%;
+  }
+
+  .top-message{
+    margin-left: -10%;
   }
 }
