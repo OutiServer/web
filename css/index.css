@@ -16,6 +16,10 @@ main h1 {
   font-size: 10vmin;
 }
 
+.top-message{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 main #welcome-msg {
   text-align: center;
 }
@@ -29,8 +33,7 @@ main #welcome {
 }
 
 main #coming {
-  margin-left: 40%;
-  
+  margin-left: 40%;  
 }
 
 main #background-img {
