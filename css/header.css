@@ -37,6 +37,7 @@
     color: #ccc;
     text-align: center;
     list-style: none;
+    transition: all 0.3s;
   }
 
   #header-pc .header-nav-item a {
@@ -44,7 +45,7 @@
   }
 
   #header-pc .select {
-    color: black;
+    color: white;
   }
 
   #header-pc .header-nav-item:hover {
@@ -62,7 +63,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 899px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -136,8 +137,9 @@
 
   /* メニューのデザイン*/
   .nav_content {
-    width: 100%;
+    width: 40%;
     height: 100%;
+    margin-left: 60%;
     position: fixed;
     top: 0;
     left: 100%; /* メニューを画面の外に飛ばす */
