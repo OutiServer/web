@@ -31,17 +31,19 @@ input[type="text"],textarea{
     width: 95%;
     margin-left: 2%;
     font-size: large;
-    border-radius: 10px;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
+}
+
+input[type="text"],textarea,button{
+    border-radius: 10px;
     transition: all 0.5s;
 }
 
 textarea{
     height: 180px;
     font-size: x-large;
-    transition: all 0.5s;
 }
 
 input[type="text"]:hover,textarea:hover,input[type="text"]:focus,textarea:focus{
@@ -57,8 +59,9 @@ button[id="submit-button"]{
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
-    transition: all 0.5s;
-    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 button[id="submit-button"]:hover{

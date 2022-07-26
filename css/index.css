@@ -79,6 +79,10 @@ main li {
   margin-left: 1rem;
 }
 
+footer{
+  padding-top: 1%;
+}
+
 main #background-img-mobile1,
 #background-img-mobile2 {
   display: none;
