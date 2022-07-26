@@ -9,7 +9,7 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
-  footer {
+  .footer_index {
     padding-top: 90%;
   }
 }
