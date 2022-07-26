@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>おうち鯖</title>
+    <meta name="description" content="おうち鯖の公式Webサイトです" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/discord.css" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
+  </head>
+  <body>
+    <header id="header-pc">
+      <nav class="header-inner">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="" style="width: 200px"
+          /></a>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <a href="index.html">
+              <li class="header-nav-item select">ホーム</li>
+            </a>
+            <a href="">
+              <li class="header-nav-item"><s>管理者一覧</s></li>
+            </a>
+            <a href="">
+              <li class="header-nav-item"><s>お知らせ</s></li>
+            </a>
+            <a href="">
+              <li class="header-nav-item"><s>お問い合わせ</s></li>
+            </a>
+            <a href="">
+              <li class="header-nav-item"><s>Discord</s></li>
+            </a>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+
+    <header id="header-mobile">
+      <!-- ヘッダーロゴ -->
+      <div class="logo">
+        <a href="index.html"
+          ><img src="img/logo.png" alt="" style="width: 200px"
+        /></a>
+      </div>
+
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox" />
+
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+
+        <!-- メニュー -->
+        <nav class="nav_content">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="">ホーム</a>
+            </li>
+            <li class="nav_item">
+              <a href="">管理者一覧</a>
+            </li>
+            <li class="nav_item">
+              <a href="">お知らせ</a>
+            </li>
+            <li class="nav_item">
+              <a href="">お問い合わせ</a>
+            </li>
+            <li class="nav_item">
+              <a href="">Discord</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <h1 class="page-title">Discord</h1>
+        <div class="discord">
+            <!-- hrefにDiscordの招待URLを入力 -->
+            <p><a class="discord_button" href="">サーバーに参加</a></p><br>
+            <!-- id= の所にDiscordのサーバーIDを入力 (サーバーアイコンを右クリック->IDをコピー) -->
+            <iframe src="https://discord.com/widget?id=706452606918066237&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+    </main>
+    <footer>
+      <p>2021〜2022 おうち鯖 All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
