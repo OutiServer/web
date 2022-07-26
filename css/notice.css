@@ -1,0 +1,26 @@
+.notice_item{
+    padding: 15px;
+    margin: 5%;
+    background-color: #00000021;
+    border-radius: 10px;
+}
+
+.notice_title{
+    display: flex;
+    font-size: x-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    word-break: keep-all;
+    border-bottom: solid 1px black;
+}
+
+.notice_content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.time{
+    margin-left: 70%;
+}
